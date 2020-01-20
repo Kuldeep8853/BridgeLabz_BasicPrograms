@@ -1,0 +1,11 @@
+D:\DataStructurePrograms\DataStructurePrograms\bin\Debug\netcoreapp3.1\DataStructurePrograms.exe
+D:\DataStructurePrograms\DataStructurePrograms\bin\Debug\netcoreapp3.1\DataStructurePrograms.deps.json
+D:\DataStructurePrograms\DataStructurePrograms\bin\Debug\netcoreapp3.1\DataStructurePrograms.runtimeconfig.json
+D:\DataStructurePrograms\DataStructurePrograms\bin\Debug\netcoreapp3.1\DataStructurePrograms.runtimeconfig.dev.json
+D:\DataStructurePrograms\DataStructurePrograms\bin\Debug\netcoreapp3.1\DataStructurePrograms.dll
+D:\DataStructurePrograms\DataStructurePrograms\bin\Debug\netcoreapp3.1\DataStructurePrograms.pdb
+D:\DataStructurePrograms\DataStructurePrograms\obj\Debug\netcoreapp3.1\DataStructurePrograms.csprojAssemblyReference.cache
+D:\DataStructurePrograms\DataStructurePrograms\obj\Debug\netcoreapp3.1\DataStructurePrograms.AssemblyInfoInputs.cache
+D:\DataStructurePrograms\DataStructurePrograms\obj\Debug\netcoreapp3.1\DataStructurePrograms.AssemblyInfo.cs
+D:\DataStructurePrograms\DataStructurePrograms\obj\Debug\netcoreapp3.1\DataStructurePrograms.dll
+D:\DataStructurePrograms\DataStructurePrograms\obj\Debug\netcoreapp3.1\DataStructurePrograms.pdb
