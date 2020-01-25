@@ -1,0 +1,11 @@
+D:\FunctionalPrograms\FunctionalPrograms\bin\Debug\netcoreapp3.1\FunctionalPrograms.exe
+D:\FunctionalPrograms\FunctionalPrograms\bin\Debug\netcoreapp3.1\FunctionalPrograms.deps.json
+D:\FunctionalPrograms\FunctionalPrograms\bin\Debug\netcoreapp3.1\FunctionalPrograms.runtimeconfig.json
+D:\FunctionalPrograms\FunctionalPrograms\bin\Debug\netcoreapp3.1\FunctionalPrograms.runtimeconfig.dev.json
+D:\FunctionalPrograms\FunctionalPrograms\bin\Debug\netcoreapp3.1\FunctionalPrograms.dll
+D:\FunctionalPrograms\FunctionalPrograms\bin\Debug\netcoreapp3.1\FunctionalPrograms.pdb
+D:\FunctionalPrograms\FunctionalPrograms\obj\Debug\netcoreapp3.1\FunctionalPrograms.csprojAssemblyReference.cache
+D:\FunctionalPrograms\FunctionalPrograms\obj\Debug\netcoreapp3.1\FunctionalPrograms.AssemblyInfoInputs.cache
+D:\FunctionalPrograms\FunctionalPrograms\obj\Debug\netcoreapp3.1\FunctionalPrograms.AssemblyInfo.cs
+D:\FunctionalPrograms\FunctionalPrograms\obj\Debug\netcoreapp3.1\FunctionalPrograms.dll
+D:\FunctionalPrograms\FunctionalPrograms\obj\Debug\netcoreapp3.1\FunctionalPrograms.pdb
