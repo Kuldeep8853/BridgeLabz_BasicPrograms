@@ -45,9 +45,9 @@ namespace DataStructurePrograms{
             else{
                 Node tamp = head;
                 while (tamp!= null){
-                    Console.Write(tamp.data + " ");
+                    Console.Write(tamp.data);
                     if (tamp.next != null)
-                        Console.Write("--> ");
+                        Console.Write("-->");
                     tamp = tamp.next;
                 }
             }
