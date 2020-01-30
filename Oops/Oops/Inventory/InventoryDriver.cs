@@ -1,53 +1,76 @@
-﻿using Newtonsoft.Json;
+﻿// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// <copyright file=Inventory.cs" company="Bridgelabz">
+//   Copyright © 2019 Company="BridgeLabz"
+// </copyright>
+// <creator name="Kuldeep Kasaudhan"/>
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
-
-namespace Oops.Inventory
-{
+namespace Oops.Inventory{
+    /// <summary>
+    ///Oprations in inventory items
+    /// </summary>
     class InventoryDriver
     {
-        public static void ReadItem()
-        {
-            var json = File.ReadAllText(@"D:\Oops\Oops\Inventory\InventoryItems.json");
+        /// <summary>
+        /// Display the inventory items
+        /// </summary>
+        public static void ReadItem(){
+            ////Read the json file.........
             try
             {
-                var jObject = JObject.Parse(json);
-
-                if (jObject != null)
-                {
-                    JArray itemArrary = (JArray)jObject["item"];
-                    if (itemArrary != null)
-                    {
-                        foreach (var item in itemArrary)
-                        {
-                            Console.WriteLine("Item Name :" + item["Name"].ToString());
-                            Console.WriteLine("Item price :" + item["Price"].ToString());
-                            Console.WriteLine("Item Weight :" + item["Weight"].ToString());
-                            Console.WriteLine("---------------------------------");
-                        }
-
+               
+                    Inventory array = Utility.ReadJsonFile();
+                JArray experiencesArrary = (JArray)jObject[array];
+                Console.WriteLine("item:");
+                    for(int i=0;i<array.Length;i++)
+                    { 
+                        Console.WriteLine("name =" + array.Name);
+                        Console.WriteLine("weight =" + array.Weight);
+                        Console.WriteLine("Price =" + array.Price);
                     }
+
                 }
-            }
             catch (Exception)
             {
                 throw;
             }
         }
-       /* public static void AddItem()
+        /// <summary>
+        /// Addition opration in json file
+        /// </summary>
+        public static void AddItem()
         {
-            Console.WriteLine("Enter Item name : ");
-            var Name = Console.ReadLine();
-            Console.WriteLine("Enter Item price : ");
-            var price = Console.ReadLine();
-            Console.WriteLine("Enter Item wieght : ");
-            var wieght = Console.ReadLine();
+            Inventory item = new Inventory();
 
-            var newItem = "{ 'Name': " + Name + ",  
-    'Price': " + price + "    ,'Weight':" + wieght " }";  
-          }
-       */ 
+            Console.Write("Enter Item name : ");
+            item.Name = Console.ReadLine();
+            Console.Write("Enter Item price : ");
+            item.Price = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter Item wieght : ");
+            item.Weight = Convert.ToInt32(Console.ReadLine());
+            try
+            {
+                ///read the json file....       
+                string json = File.ReadAllText(@"D:\Oops\Oops\Inventory\InventoryItems.json");
+                List<Inventory> playerList = JsonConvert.DeserializeObject<List<Inventory>>(json);
+                playerList.Add(item);
+
+                ////serializa the json file.....
+                string jsonItem = JsonConvert.SerializeObject(playerList);
+                File.WriteAllText(@"D:\Oops\Oops\Inventory\InventoryItems.json", jsonItem);
+
+            }
+            catch (Exception ex)
+            {
+                ////display the exception message......
+                Console.WriteLine("Add Error : " + ex.Message.ToString());
+            }
+            
+        }
+        
     }
 }

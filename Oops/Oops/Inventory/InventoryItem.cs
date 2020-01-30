@@ -6,7 +6,7 @@ namespace Oops.Inventory
 {
     public class InventoryItem
     {
-        public List<Inventory> item { get; set; }
+        public List<Inventory> Item { get; set; }
 
     }
 }

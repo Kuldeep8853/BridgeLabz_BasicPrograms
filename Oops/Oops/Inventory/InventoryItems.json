@@ -1,5 +1,5 @@
-﻿{
-  "item": [
+﻿
+   [
     {
       "Name": "Rice",
       "Price": 50,
@@ -14,7 +14,10 @@
       "Name": "Wheats",
       "Price": 27,
       "Weight": 350
+    },
+    {
+
     }
   ]
-}
+
 
