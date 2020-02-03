@@ -39,19 +39,18 @@ namespace Oops.AddressBook
             string PhoneNo = Console.ReadLine();
             Console.Write("Enter the Address : ");
             string Address = Console.ReadLine();
-           
-                string json = File.ReadAllText(@"D:\Oops\Oops\AddressBook\PersonList.json");
-                var jObject = JObject.Parse(json);
-                JArray Personrrary = (JArray)jObject["Person"];
-                JObject list1 = new JObject
+
+            string json = File.ReadAllText(@"D:\Oops\Oops\AddressBook\PersonList.json");
+            JArray PersonArrary = JArray.Parse(json);
+                JObject Detail = new JObject
                             {
                                 { "FirstName", Fname },
                                 { "LastName", Lname },
                                 { "PhoneNumber", PhoneNo },
                                 {"Addresses",Address }
                             };
-                Personrrary.Add(list1);
-                var jsonToOutput1 = JsonConvert.SerializeObject(Personrrary, Formatting.Indented);
+                  PersonArrary.Add(Detail);
+                  var jsonToOutput1 = JsonConvert.SerializeObject(PersonArrary, Formatting.Indented);
                 File.WriteAllText(@"D:\Oops\Oops\AddressBook\PersonList.json", jsonToOutput1);
         }
         /// <summary>
