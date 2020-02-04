@@ -1,27 +1,22 @@
 {
   "Amazon": [
     {
-      "ShareName1": "sensex1",
+      "ShareName1": "Amazon",
       "NoOfShare1": 1,
       "SharePrice1": 2.0
     },
     {
-      "ShareName1": "sensex2",
-      "NoOfShare1": 4,
-      "SharePrice1": 7.0
-    },
-    {
-      "ShareName1": "sensex3",
+      "ShareName1": "Amazon2",
       "NoOfShare1": 30,
       "SharePrice1": 6.0
     },
     {
-      "ShareName1": "sensex4",
+      "ShareName1": "Amazon3",
       "NoOfShare1": 3,
       "SharePrice1": 245.0
     },
     {
-      "ShareName1": "amazon",
+      "ShareName1": "Amazon4",
       "NoOfShare1": 3,
       "SharePrice1": 12.0
     }
@@ -36,11 +31,16 @@
       "ShareName1": "flipsensex2",
       "NoOfShare1": 32,
       "SharePrice1": 25.0
+    },
+    {
+      "ShareName1": "Flipkart3",
+      "NoOfShare1": "35",
+      "SharePrice1": "4773"
     }
   ],
   "Tcs": [
     {
-      "ShareName1": "tcs sensex1",
+      "ShareName1": "tcssensex1",
       "NoOfShare1": 3,
       "SharePrice1": 5.0
     },
@@ -50,7 +50,7 @@
       "SharePrice1": 0.0
     },
     {
-      "ShareName1": "tcssensex3",
+      "ShareName1": "asdfghj",
       "NoOfShare1": 0,
       "SharePrice1": 0.0
     },
@@ -63,11 +63,6 @@
       "ShareName1": "tcssensex5",
       "NoOfShare1": 4,
       "SharePrice1": 45.0
-    },
-    {
-      "ShareName1": "Tcs1",
-      "NoOfShare1": "23",
-      "SharePrice1": "342"
     }
   ]
 }
