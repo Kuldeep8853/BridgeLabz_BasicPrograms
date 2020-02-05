@@ -1,0 +1,12 @@
+{
+  "Amount": 1500000,
+  "ShareNumber": 10,
+  "Share": [
+    {
+      "ShareName": "Tcs",
+      "NoOfShare": 10,
+      "SharePrice": 1000
+    }
+
+  ]
+}
