@@ -1,22 +1,22 @@
- [
-    {
-      "ShareName": "Amazon",
-      "NoOfShare": 150,
-      "SharePrice": 2400
-    },
-    {
-      "ShareName": "IBM",
-      "NoOfShare": 130,
-      "SharePrice": 2000
-    },
-    {
-      "ShareName": "TCS",
-      "NoOfShare": 490,
-      "SharePrice": 1000
-    },
-    {
-      "ShareName": "Flipkart",
-      "NoOfShare": 250,
-      "SharePrice": 1500
-    }
- ]
+[
+  {
+    "ShareName": "Amazon",
+    "NoOfShare": 146,
+    "SharePrice": 2400
+  },
+  {
+    "ShareName": "IBM",
+    "NoOfShare": 120,
+    "SharePrice": 2000
+  },
+  {
+    "ShareName": "TCS",
+    "NoOfShare": 460,
+    "SharePrice": 1000
+  },
+  {
+    "ShareName": "Flipkart",
+    "NoOfShare": 250,
+    "SharePrice": 1500
+  }
+]
