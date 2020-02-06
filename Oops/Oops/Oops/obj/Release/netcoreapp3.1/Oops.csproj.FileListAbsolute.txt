@@ -1,3 +1,0 @@
-D:\Oops\Oops\obj\Release\netcoreapp3.1\Oops.csprojAssemblyReference.cache
-D:\Oops\Oops\obj\Release\netcoreapp3.1\Oops.AssemblyInfoInputs.cache
-D:\Oops\Oops\obj\Release\netcoreapp3.1\Oops.AssemblyInfo.cs
