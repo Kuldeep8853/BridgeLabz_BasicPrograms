@@ -1,0 +1,53 @@
+{
+  "Rice": [
+    {
+      "Name": "Rice1",
+      "Price": 50,
+      "Weight": 100
+    },
+    {
+      "Name": "Rice2",
+      "Price": 35,
+      "Weight": 60
+    },
+    {
+      "Name": "Rice3",
+      "Price": 27,
+      "Weight": 350
+    },
+    {
+      "Name": "Rice4",
+      "Price": "43",
+      "Weight": "653"
+    }
+  ],
+  "Wheat": [
+    {
+      "Name": "Wheat1",
+      "Price": 50,
+      "Weight": 100
+    },
+    {
+      "Name": "Wheat2",
+      "Price": 35,
+      "Weight": 60
+    },
+    {
+      "Name": "Wheat3",
+      "Price": 27,
+      "Weight": 350
+    }
+  ],
+  "Pulse": [
+    {
+      "Name": "Pulse1",
+      "Price": 50,
+      "Weight": 100
+    },
+    {
+      "Name": "Pulse2",
+      "Price": 35,
+      "Weight": 60
+    }
+  ]
+}
