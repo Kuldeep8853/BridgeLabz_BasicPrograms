@@ -1,4 +1,5 @@
 ﻿using Oops.AddressBook;
+using Oops.CommercialDataProcessing;
 using Oops.Inventory;
 using Oops.StockAccountManagement;
 using System;
@@ -152,6 +153,7 @@ namespace Oops{
                         Console.WriteLine("BuyShare. Custmor want to buy share...");
                         Console.WriteLine("SharShelle. Custmor want to shell share...");
                         Console.WriteLine("PrintReport.Print the all buy and shell share reports..");
+                        Console.WriteLine("AddAndRemoveShare. Add and romove the share in company using linked list");
                         ////Console.WriteLine("UpdateDetails. Update the Person Details......");
                         string choice1 = Console.ReadLine();
                         switch (choice1)
@@ -189,6 +191,39 @@ namespace Oops{
                                 {
                                     CommercialDataProcessing.StockAccount.PrintReport();
                                     break;
+                                }
+                            case "AddAndRemoveShare":
+                                {
+                                    Console.WriteLine("Enter the choice..... ");
+                                    Console.WriteLine("----------------------");
+                                    Console.WriteLine("AddShare. Add the share in Company file using linked list..");
+                                    Console.WriteLine("RemoveShare.  Remove the share in Company file using linked list..");
+                                    //Console.WriteLine("SharShelle. Custmor want to shell share...");
+                                    //Console.WriteLine("PrintReport.Print the all buy and shell share reports..");
+                                    //Console.WriteLine("AddAndRemoveShare. Add and romove the share in company using linked list");
+                                    ////Console.WriteLine("UpdateDetails. Update the Person Details......");
+                                    string choice2 = Console.ReadLine();
+                                    switch (choice2)
+                                    {
+                                        case "AddShare":
+                                            {
+                                                AddandRemoveShare.AddStock();
+                                                AddandRemoveShare.PrintList();
+                                                break;
+                                            } 
+                                        case "RemoveShare":
+                                            {
+                                                AddandRemoveShare.RemoveStock();
+                                                AddandRemoveShare.PrintList();
+                                                break;
+                                            }
+                                        default:
+                                            {
+                                                Console.WriteLine("Enter the valid choice...");
+                                                break;
+                                            }
+                                    }
+                                 break;
                                 }
                         }
                         break;
