@@ -1,18 +1,18 @@
 {
-  "Amount": 1431200,
-  "ShareNumber": 47,
+  "Amount": 1404200,
+  "ShareNumber": 48,
   "Share": [
     {
       "ShareName": "TCS",
-      "NoOfShare": 16,
+      "NoOfShare": 15,
       "SharePrice": 1000,
-      "Date and Time": "06-02-2020  19:14:44"
+      "Date and Time": "07-02-2020  14:52:57"
     },
     {
       "ShareName": "IBM",
-      "NoOfShare": 9,
+      "NoOfShare": 8,
       "SharePrice": 2000,
-      "Date and Time": "06-02-2020  19:05:57"
+      "Date and Time": "07-02-2020  14:53:36"
     },
     {
       "ShareName": "Flipkart",
@@ -25,6 +25,12 @@
       "NoOfShare": 2,
       "SharePrice": 2400,
       "Date and Time": "06-02-2020  18:57:02"
+    },
+    {
+      "ShareName": "Facebook",
+      "NoOfShare": 3,
+      "SharePrice": 10000,
+      "Date and Time": "07-02-2020  15:00:34"
     }
   ]
 }

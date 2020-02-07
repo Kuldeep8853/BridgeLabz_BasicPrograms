@@ -7,6 +7,7 @@ namespace Oops.CommercialDataProcessing
 {
     class StockAccount
     {
+       static StockStackList<string> detail = new StockStackList<string>();
         /// <summary>
         /// Display the company share details.......
         /// </summary>
@@ -104,6 +105,7 @@ namespace Oops.CommercialDataProcessing
                         var jsonToOutput = JsonConvert.SerializeObject(StockArray, Formatting.Indented);
                         File.WriteAllText(@"D:\Oops\Oops\CommercialDataProcessing\CompanyStock.json", jsonToOutput);
                     Console.WriteLine("Buy the " + No_Of_Share + " share of "+ sharename+" company" +", Date and time "+ DateTime.Now.ToString("dd-MM-yyyy " + " HH:mm:ss"));
+                    detail.Push("Buy the " + No_Of_Share + " share of " + sharename + " company" + ", Date and time " + DateTime.Now.ToString("dd-MM-yyyy " + " HH:mm:ss"));
                 }
             }
         }
@@ -135,6 +137,8 @@ namespace Oops.CommercialDataProcessing
                 var jsonToOutput = JsonConvert.SerializeObject(jObject, Formatting.Indented);
                 File.WriteAllText(@"D:\Oops\Oops\CommercialDataProcessing\UserStock.json", jsonToOutput);
                 Console.WriteLine("Shell the " + shareNumber + " share of " + sharename + " company" + ", Date and time " + DateTime.Now.ToString("dd-MM-yyyy " + " HH:mm:ss"));
+                string detail1=Convert.ToString("Shell the " + shareNumber + " share of " + sharename + " company" + ", Date and time " + DateTime.Now.ToString("dd-MM-yyyy " + " HH:mm:ss"));
+                detail.Push(detail1);
             }
             catch (Exception)
             {
@@ -143,8 +147,8 @@ namespace Oops.CommercialDataProcessing
         }
         public static void PrintReport()
         {
-           
 
+            detail.PrintStack();
         }
     }
 }
