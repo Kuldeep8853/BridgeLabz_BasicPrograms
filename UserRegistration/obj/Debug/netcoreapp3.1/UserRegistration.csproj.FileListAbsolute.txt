@@ -1,0 +1,11 @@
+D:\BridgeLabz_BasicPrograms\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.exe
+D:\BridgeLabz_BasicPrograms\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.deps.json
+D:\BridgeLabz_BasicPrograms\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.runtimeconfig.json
+D:\BridgeLabz_BasicPrograms\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.runtimeconfig.dev.json
+D:\BridgeLabz_BasicPrograms\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.dll
+D:\BridgeLabz_BasicPrograms\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.pdb
+D:\BridgeLabz_BasicPrograms\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.csprojAssemblyReference.cache
+D:\BridgeLabz_BasicPrograms\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.AssemblyInfoInputs.cache
+D:\BridgeLabz_BasicPrograms\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.AssemblyInfo.cs
+D:\BridgeLabz_BasicPrograms\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.dll
+D:\BridgeLabz_BasicPrograms\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.pdb
